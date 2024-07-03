@@ -123,33 +123,6 @@ header.hero-img {
 	}
 }
 
-.offer-hero {
-	position: relative;
-	background-image: url('../img/computer_small.jpg');
-	background-size: cover;
-	background-position: center;
-	color: $light-grey;
-	z-index: 0;
-	.offer-shadow {
-		position: absolute;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		background-color: rgb(0, 0, 0, 0.9);
-		z-index: -5;
-	}
-	.offer-hero-item {
-		margin: 10px 0;
-
-		i {
-			font-size: 36px;
-		}
-		.offer-hero-title {
-			font-size: 20px;
-		}
-	}
-}
 //kontakt
 
 .contact {
@@ -351,9 +324,7 @@ header.hero-img {
 	html {
 		scroll-padding-top: 72px;
 	}
-	.offer-hero {
-		background-image: url('../img/computer_big.jpg');
-	}
+	
 }
 
 @media (max-width: 1024px) {
