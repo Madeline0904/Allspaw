@@ -69,7 +69,7 @@ header.hero-img {
 	background-image: url('../img/welding-1838986_640.jpg');
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+	// background-attachment: fixed;
 	color: $white;
 	z-index: 0;
 	h1 {
@@ -130,7 +130,7 @@ header.hero-img {
 	background-image: url('../img/smartphone-3139219_1920.jpg');
 	background-position: center;
 	background-size: cover;
-	background-attachment: fixed;
+	// background-attachment: fixed;
 	z-index: 0;
 	color: $white;
 	h3 {
@@ -163,6 +163,11 @@ header.hero-img {
 //media
 
 @media (max-width: 500px) {
+
+	header.hero-img {
+		background-image: url('../img/welding-1838986_640.jpg');
+	}
+
 	.top .responsive-container-block.bigContainer {
 		padding-top: 10px;
 		padding-right: 20px;
